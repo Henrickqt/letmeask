@@ -1,0 +1,124 @@
+#page-auth {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  
+  aside {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 120px 80px;
+    background-color: #835AFD;
+    color: #FFFFFF;
+
+    img {
+      max-width: 320px;
+    }
+
+    strong {
+      margin-top: 16px;
+      font: 700 36px 'Poppins', sans-serif;
+      line-height: 42px;
+    }
+
+    p {
+      margin-top: 16px;
+      color: #F8F8F8;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  main {
+    flex: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0 32px;
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+
+      > img {
+        align-self: center;
+      }
+
+      .create-room {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 50px;
+        border: 0;
+        border-radius: 8px;
+        margin-top: 64px;
+        background: #EA4335;
+        color: #FFFFFF;
+        font-weight: 500;
+        cursor: pointer;
+
+        transition: filter 0.2s;
+
+        img {
+          margin-right: 8px;
+        }
+
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+
+      .separator {
+        display: flex;
+        align-items: center;
+
+        margin: 32px 0;
+        color: #A8A8B3;
+        font-size: 14px;
+
+        &::before {
+          flex: 1;
+          content: '';
+          height: 1px;
+          margin-right: 16px;
+          background: #A8A8B3;
+        }
+
+        &::after {
+          flex: 1;
+          content: '';
+          height: 1px;
+          margin-left: 16px;
+          background: #A8A8B3;
+        }
+      }
+
+      form {
+        input {
+          height: 50px;
+          padding: 0 16px;
+          border: 1px solid #A8A8B3;
+          border-radius: 8px;
+          background: #FFFFFF;
+        }
+
+        button {
+          margin-top: 16px;
+        }
+
+        button, input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
