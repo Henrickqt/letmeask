@@ -60,7 +60,25 @@
         justify-content: space-between;
         margin-top: 16px;
 
-        span {
+        .user-info {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+          }
+
+          span {
+            margin-left: 8px;
+            color: #29292E;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+
+        > span {
           color: #737380;
           font-size: 14px;
           font-weight: 500;
