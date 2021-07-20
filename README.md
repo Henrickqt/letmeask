@@ -4,11 +4,11 @@
 
 Letmeask is an app designed for content creators to create Q&A rooms with their audience, in a very organized way.
 
-This project was developed during [Next Level Week Together #6](https://nextlevelweek.com/).
+This project was developed during [Next Level Week #6](https://nextlevelweek.com/).
 
-## Tecnologias
+## Technologies
 
-This Web App was created using the following technologies/libraries:
+This Web App was created using the following technologies:
 
 - [React](https://reactjs.org)
 - [Firebase](https://firebase.google.com/)
@@ -29,7 +29,7 @@ The following subjects are used in this project:
 Clone the project and access its folder.
 
 ```bash
-$ git clone `https://github.com/henrickqt/letmeask`
+$ git clone https://github.com/henrickqt/letmeask
 $cd letmeask
 ```
 
@@ -47,4 +47,4 @@ Remembering that you will need to create an account on [Firebase](https://fireba
 
 ## Published version
 
-Access `https://letmeask-6f059.web.app/` for the version already published.
+Access https://letmeask-6f059.web.app/ for the version already published.
